@@ -1,0 +1,22 @@
+services:
+  library1:
+    build:
+      context: .
+    environment:
+        LIBRARY_NAME: library1
+    ports:
+      - "8081:8080"
+  library2:
+    build:
+      context: .
+    environment:
+      LIBRARY_NAME: library2
+    ports:
+      - "8082:8080"
+  library3:
+    build:
+      context: .
+    environment:
+      LIBRARY_NAME: library3
+    ports:
+      - "8083:8080"

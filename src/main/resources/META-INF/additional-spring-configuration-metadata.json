@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "library.name",
+      "type": "java.lang.String",
+      "description": "This property is the name of library."
+  }]
+}
